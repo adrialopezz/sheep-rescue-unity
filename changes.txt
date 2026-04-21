@@ -1,0 +1,30 @@
+Added features:
+
+1. Combo system:
+Consecutive successful hits increase a combo counter. After reaching a threshold of three hits in a row, a score multiplier is applied.
+
+2. Timed match:
+The game now lasts 60 seconds. When the timer reaches zero, the game ends automatically.
+
+3. Fast sheep variant:
+A second type of sheep was added with higher speed and higher score value, making the gameplay more dynamic.
+
+4. Pause system:
+The player can pause and resume the game by pressing the P key.
+
+5. Restart system:
+After the game ends, the player can restart the match by pressing the R key.
+
+6. Progressive difficulty:
+The time between sheep spawns decreases gradually, increasing the difficulty as the game progresses.
+
+7. Visual interface:
+A simple user interface was added to display score, combo, remaining time, pause state, and game over message.
+
+Scripts added or modified:
+
+- Added: GameManager.cs
+- Modified: Sheep.cs
+- Modified: SheepSpawner.cs
+- Modified: HayMachine.cs
+
